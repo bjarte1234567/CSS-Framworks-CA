@@ -1,21 +1,6 @@
-@import "bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
-.container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  form {
-    max-width: 40rem;
-    width: 100%;
-    padding: 3rem;
-    border-radius: 10px;
-    background-color: #ede4f6;
-  }
-  h2 {
-    margin-bottom: 2rem;
-  }
-  button {
-    width: 100%;
-  }
+.container{
+  margin-top: 10rem;
 }
+
