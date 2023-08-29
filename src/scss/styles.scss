@@ -1,7 +1,18 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-.container{
-  margin-top: 10rem;
+/* Din tilpassede stilering */
+.container {
+  margin-top: 2rem;
 }
 
-
+.navbar {
+  background-color: black;
+  border: none;
+  a.nav-link {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
