@@ -1,0 +1,19 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$primary-colour: #9ccdfb;
+$secondary-colour: #a600ff;
+
+.navbar {
+  color: $secondary-colour;
+}
+
+body {
+  background-color: $primary-colour !important;
+}
+
+
+h1, h2, h3 {
+  color: $secondary-colour !important;
+  
+}
+
