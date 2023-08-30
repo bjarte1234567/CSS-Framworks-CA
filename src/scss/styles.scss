@@ -1,14 +1,19 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+$primary-colour: #9ccdfb;
+$secondary-colour: #a600ff;
+
+.navbar {
+  color: $secondary-colour;
+}
+
 body {
-  background-color: #b5dbfe;
+  background-color: $primary-colour !important;
 }
 
-.form-control {
-  border-color: #ced4da;
+
+h1, h2, h3 {
+  color: $secondary-colour !important;
+  
 }
 
-.btn-primary {
-  background-color: #000000;
-  border-color: #000000;
-}
